@@ -6,12 +6,13 @@
     <parent>
         <groupId>org.example</groupId>
         <artifactId>maven-compile-multi-version</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0</version>
     </parent>
 
     <artifactId>server</artifactId>
 
     <properties>
+        <!--   指定 server 编译版本为 21     -->
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -21,7 +22,7 @@
         <dependency>
             <groupId>org.example</groupId>
             <artifactId>api</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>1.0</version>
         </dependency>
     </dependencies>
 </project>
